@@ -1,0 +1,55 @@
+/*
+    Claire Lodermeier
+    The purpose of this file is to provide styling for a chat server. It styles lines of chat in
+    the main body of the html, and a bottom section for text inputs and a send button.
+*/
+
+body {
+    background-color: rgb(213, 246, 213);
+    color: rgb(4, 68, 49);
+    font-size: 20px;
+}
+
+.msg {
+    display: inline;
+}
+
+.speaker {
+    display: inline;
+    font-weight: bold;
+}
+
+#bottom {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 70%;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+
+
+    color: rgb(213, 246, 213);
+    background-color: rgb(4, 68, 49);
+    list-style: none;
+
+}
+
+li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+button {
+    font-family: times;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tBox {
+    width: 200px;
+    height: 25px;
+}
